@@ -21,13 +21,27 @@ button {
 .information {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .leftinfo {
     color: white;
     display: flex;
     flex-direction: column;
     flex: 1;
+    margin-top: 200px;
+    margin-left: 100px;
 }
 .rightinfo {
     flex: 1;
+    margin-top: 200px;
+    margin-right: 100px;
+    background-color: grey;
+    width: 327px;
+    height: 127px;
+
+}
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
