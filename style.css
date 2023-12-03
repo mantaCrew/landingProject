@@ -5,9 +5,14 @@ body {
 }
 
 .header {
+    background-color: #1f2937;
     color: white;
     display: flex;
     justify-content: space-evenly;
+}
+
+.title {
+    font-size: 48px;
 }
 .links {
     display: flex;
@@ -16,12 +21,18 @@ body {
 }
 button {
     background-color: #3882f6;
+    flex: 1, 0, 0;
+    max-width: 100px;
+    border-radius: 5px;
+    color: white;
 }
 
 .information {
+    background-color: #1f2937;
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 25px;
 }
 .leftinfo {
     color: white;
@@ -30,18 +41,104 @@ button {
     flex: 1;
     margin-top: 200px;
     margin-left: 100px;
+    min-width: 325px;
+    min-height: 150px;
 }
 .rightinfo {
     flex: 1;
     margin-top: 200px;
     margin-right: 100px;
     background-color: grey;
-    width: 327px;
-    height: 127px;
+    min-width: 325px;
+    min-height: 175px;
 
 }
 .image {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.white {
+    background-color: white;
+    padding: 50px;
+    margin-top: 100px;
+}
+.squares {
+    display:flex;
+    gap: 50px;
+    justify-content: center;
+    
+}
+.boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.boxtitle {
+    font-size: 36px;
+    color: #1f2937;
+    align-self: center;
+    padding-bottom: 50px;
+}
+.boxone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.box {
+    min-width: 200px;
+    min-height: 200px;
+    outline: 4px solid #3882F6;
+    flex: auto;
+    border-radius: 25px;
+}
+.boxtext {
+    text-align: center;
+}
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    color: #1f2937;
+}
+.quotee {
+    font-size: 36px;
+}
+.author {
+    align-self: flex-end;
+}
+.signup {
+    background-color: #3882F6;
+    display: flex;
+    padding: 40px;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+.whitee {
+    background-color: white;
+    padding: 75px;
+    color: white;
+
+}
+.click {
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.footer {
+    background-color: #1f2937;
+}
+.footertext {
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.whole {
+    max-width: 1500px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
 }
